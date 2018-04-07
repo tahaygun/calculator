@@ -62,7 +62,7 @@ $(document).ready(function(){
             totalString= eval(totalString);
             if(totalString!==undefined && totalString!==undefined){
             totalString = Math.sqrt(Number(totalString));
-            totalString = precisionRound(totalString,3);
+            totalString = precisionRound(totalString,2);
             inputs=[`${totalString}`];
             update();
             }
