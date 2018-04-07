@@ -53,6 +53,7 @@ $(document).ready(function(){
         if(this.id==="deleteAll"){
             inputs=[""];
             update();
+            $("#steps").html(0);
         }else if(this.id==="backOne"){
             inputs.pop();
             update();
@@ -75,6 +76,7 @@ $(document).ready(function(){
                 update();
             }
         }else if(this.id==="total"){
+            window.navigator.vibrate(200); 
             getTotal();
         }else{
                 getValue(this.id); 

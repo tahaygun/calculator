@@ -1,7 +1,9 @@
 body::before{
+
+
     background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/MPaEbz-/videoblocks-animated-squared-paper-sheets-with-math-formulas-and-equations-digitally-generated-background_bbvhyt3lb_thumbnail-full01.png");
-    color: white;
     content: "";
+    background-color: aqua;
     position: fixed;
     top: 0;
     left: 0;
@@ -18,24 +20,26 @@ body::before{
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
     -ms-filter: blur(5px);
-    filter: blur(7px);
+    filter: blur(12px);
 }
 #container{
     box-shadow: white;
     margin-top: 100px;
+        font-family: 'Nunito', sans-serif;
 }
 .output{
-    background-color: white;
+    background-color: rgba(7, 86, 243, 0.586);
     color: black;
     width: 260px;
     height: 70px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 #steps{
+    font-family: 'Nunito', sans-serif;
     padding: 15px;
     font-size: 35px;
     word-wrap: break-word;
@@ -51,11 +55,13 @@ body::before{
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
-a{
+
+#calculator a{
     margin: 5px;
     width: 40px;
+    color: rgb(255, 255, 255);
 }
-.bigButton{
+#calculator .bigButton{
     width: 93px;
 }
 
