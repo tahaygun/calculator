@@ -1,0 +1,70 @@
+body::before{
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/MPaEbz-/videoblocks-animated-squared-paper-sheets-with-math-formulas-and-equations-digitally-generated-background_bbvhyt3lb_thumbnail-full01.png");
+    color: white;
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    
+    display: block;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(7px);
+}
+#container{
+    box-shadow: white;
+    margin-top: 100px;
+}
+.output{
+    background-color: white;
+    color: black;
+    width: 260px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#steps{
+    padding: 15px;
+    font-size: 35px;
+    word-wrap: break-word;
+}
+
+#calculator{
+    background-color: rgba(241, 248, 42, 0.366);
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+a{
+    margin: 5px;
+    width: 40px;
+}
+.bigButton{
+    width: 93px;
+}
+
+@media screen and (max-width: 768px) {
+    #container{
+        margin: 0px;
+        padding: 0px;
+    }
+    #calculator{
+        padding: 10px;
+    }
+}
